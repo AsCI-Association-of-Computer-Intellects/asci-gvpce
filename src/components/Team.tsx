@@ -211,7 +211,7 @@ const Team = () => {
         {
           name: "Lavanya",
           role: "President",
-          image: "/photos/2024-25/lavanya.jpg",
+          image: "/photos/lavanya.jpg",
           url: "https://www.linkedin.com/in/lavanya-bethina/",
           borderColor: "#FF6B6B",
           gradient: "linear-gradient(145deg, #FF6B6B, #000)",
