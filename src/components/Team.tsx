@@ -187,6 +187,7 @@ const Team = () => {
           gradient: "linear-gradient(145deg, #EF4444, #000)",
           accentColor: "#FCA5A5",
         },
+        
         {
           name: "MANIDEEPAK KONDRA",
           role: "PR & Logistics Head",
