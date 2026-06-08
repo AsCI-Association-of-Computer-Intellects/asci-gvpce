@@ -368,7 +368,7 @@ const Team = () => {
   const pastSeasons = seasonsSorted.slice(0, seasonsSorted.length - 1);
 
   const [selectedSeason, setSelectedSeason] = useState(latestSeason);
-  const [showPastBoards, setShowPastBoards] = useState(true);
+  const [showPastBoards, setShowPastBoards] = useState(false);
 
   const selectedTeam = teamSeasons[selectedSeason];
 

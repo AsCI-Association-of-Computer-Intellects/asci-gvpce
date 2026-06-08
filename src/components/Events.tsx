@@ -19,7 +19,7 @@ const Events = () => {
         "The inauguration of AsCI marked the beginning of a new era of innovation and collaboration. The event introduced the club's vision, featured inspiring speeches, and concluded with an exciting Tech Quiz that encouraged students to showcase their technical knowledge and enthusiasm for learning.",
       color: "#3B82F6",
       borderColor: "#2563EB",
-      images: []
+      images: ["/events/inaug/1.jpg", "/events/inaug/2.jpg", "/events/inaug/3.jpg"]
     },
     {
       event_id: 2,
@@ -34,7 +34,7 @@ const Events = () => {
         "LOLgorithms was a unique meme-making contest where students used humor to explain technical concepts related to algorithms and computer science.",
       color: "#EC4899",
       borderColor: "#DB2777",
-      images: []
+      images: ["/events/inaug/1.jpg", "/events/inaug/2.jpg", "/events/inaug/3.jpg"]
     },
     {
       event_id: 3,
@@ -49,7 +49,7 @@ const Events = () => {
         "Mindware was an engaging online quiz contest that tested participants' knowledge of computer science and technology.",
       color: "#A855F7",
       borderColor: "#9333EA",
-      images: []
+      images: ["/events/inaug/1.jpg", "/events/inaug/2.jpg", "/events/inaug/3.jpg"]
     },
     {
       event_id: 4,
@@ -64,7 +64,7 @@ const Events = () => {
         "Cyber Hive was an interactive seminar focused on cybersecurity awareness and career opportunities in cybersecurity.",
       color: "#0EA5E9",
       borderColor: "#0284C7",
-      images: []
+      images: ["/events/cyberhive/1.jpg", "/events/cyberhive/2.jpg", "/events/cyberhive/3.jpg"]
     },
     {
       event_id: 5,
@@ -79,7 +79,7 @@ const Events = () => {
         "Output Unveiled was an intense coding contest where participants solved 16 programming challenges in C and C++.",
       color: "#F97316",
       borderColor: "#EA580C",
-      images: []
+      images: ["/events/output/1.jpg", "/events/output/2.jpg", "/events/output/3.jpg"]
     },
     {
       event_id: 6,
@@ -94,7 +94,7 @@ const Events = () => {
         "PyMind was an engaging Python-based quiz competition for first-year students.",
       color: "#8B5CF6",
       borderColor: "#7C3AED",
-      images: []
+      images: ["/events/pymind/1.jpg", "/events/pymind/2.jpg", "/events/pymind/3.jpg"]
     },
     {
       event_id: 7,
@@ -109,7 +109,7 @@ const Events = () => {
         "Crypto Countdown was a two-day online seminar covering blockchain fundamentals and smart contracts.",
       color: "#06B6D4",
       borderColor: "#0891B2",
-      images: []
+      images: ["/events/cryptocountdown/1.jpg", "/events/cryptocountdown/2.jpg", "/events/cryptocountdown/3.jpg"]
     },
     {
       event_id: 8,
@@ -123,7 +123,7 @@ const Events = () => {
         "A structured, practical workshop on Git and GitHub, including real-world applications and best practices.",
       color: "#2563EB",
       borderColor: "#1D4ED8",
-      images: []
+      images: ["/events/getgitgo/1.jpg", "/events/getgitgo/2.jpg", "/events/getgitgo/3.jpg"]
     },
     {
       event_id: 9,
@@ -138,11 +138,7 @@ const Events = () => {
       participants: 50,
       description:
         "A timed coding competition with algorithmic challenges to test participants' problem-solving skills and coding speed.",
-      images: [
-        "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=800"
-      ],
+      images: ["/events/masterthecode/1.jpg", "/events/masterthecode/2.jpg", "/events/masterthecode/3.jpg"],
       color: "#F97316",
       borderColor: "#EA580C",
     },
@@ -159,11 +155,7 @@ const Events = () => {
       participants: 50,
       description:
         "The event highlighted the growing importance of hands-on skills over theoretical knowledge in today's education system.",
-      images: [
-        "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800"
-      ],
+      images: ["/events/skill_ai/1.jpg", "/events/skill_ai/2.jpg", "/events/skill_ai/3.jpg"],
       color: "#6366F1",
       borderColor: "#4F46E5",
     },
@@ -181,11 +173,7 @@ const Events = () => {
       participants: 50,
       description:
         "A hands-on workshop aimed at introducing 1st and 2nd-year students to the fundamentals of Android development.",
-      images: [
-        "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=800"
-      ],
+      images: ["/events/Android/img-1.jpg", "/events/Android/img-2.jpg", "/events/Android/img-3.jpg"],
       color: "#10B981",
       borderColor: "#059669",
     },
@@ -206,11 +194,7 @@ const Events = () => {
       participants: 50,
       description:
         "To educate students on the dangers of phishing attacks and strengthen their ability to recognize and mitigate cyber threats through an interactive and engaging competition.",
-      images: [
-        "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/5474293/pexels-photo-5474293.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&w=800"
-      ],
+      images: ["/events/Catch_the_phish/1.jpg", "/events/Catch_the_phish/2.jpg", "/events/Catch_the_phish/3.jpg"],
       color: "#0EA5E9",
       borderColor: "#0284C7",
     },
@@ -229,11 +213,7 @@ const Events = () => {
       participants: 50,
       description:
         "A two days workshop is conducted on Linux Commands, GitHub and Programming Language.",
-      images: [
-        "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800"
-      ],
+      images: ["/events/Byte_the_Byte/1.jpg", "/events/Byte_the_Byte/2.jpg", "/events/Byte_the_Byte/3.jpg"],
       color: "#14B8A6",
       borderColor: "#0D9488",
     },
@@ -246,11 +226,7 @@ const Events = () => {
       domain: "Data Analytics",
       participants: 50,
       description: "An exciting data analytics competition where participants will analyze complex datasets and derive meaningful insights.",
-      images: [
-        "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800"
-      ],
+      images: ["/events/dataSprint/1.jpg", "/events/dataSprint/2.jpg", "/events/dataSprint/3.jpg"],
       color: "#A855F7",
       borderColor: "#9333EA",
     },
@@ -268,7 +244,7 @@ const Events = () => {
       participants: 50,
       description:
         "We'll Give prompt to everyone and implement it and after completing it we'll conduct voting. The one who gets the most votes for the best implementation will be the winner",
-      images: [],
+      images: ["/events/ui-forge/1.png", "/events/ui-forge/2.png", "/events/ui-forge/3.png"],
       color: "#2563EB",
       borderColor: "#1D4ED8",
     },
@@ -283,11 +259,7 @@ const Events = () => {
       participants: 50,
       description:
         "To educate students on the cloud computing and strengthen their ability in cloud through an interactive.",
-      images: [
-        "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=800"
-      ],
+      images: ["/events/explore_cloud/1.jpg", "/events/explore_cloud/2.jpg", "/events/explore_cloud/3.jpg"],
       color: "#06B6D4",
       borderColor: "#0891B2",
     },
@@ -304,11 +276,7 @@ const Events = () => {
       participants: 50,
       description:
         "To educate students on the Bug Bounties, CTFs and strengthen their ability in Cybersecurity an interactive and engaging competition.",
-      images: [
-        "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=800",
-        "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=800"
-      ],
+      images: ["/events/decode_world/1.jpg", "/events/decode_world/2.jpg", "/events/decode_world/3.jpg"],
       color: "#0EA5E9",
       borderColor: "#0284C7",
     },
