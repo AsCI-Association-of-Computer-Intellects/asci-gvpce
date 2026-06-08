@@ -403,7 +403,7 @@ const Team = () => {
     return (
       <div className="mb-20">
         <h3 className="text-3xl font-bold text-white mb-10 text-center">
-          Core Team - {season.label}
+          Core Team
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {season.coreTeam.map((member, index) => (
@@ -468,7 +468,7 @@ const Team = () => {
     return (
       <div>
         <h3 className="text-3xl font-bold text-white mb-10 text-center">
-          Domain Leads - {season.label}
+          Domain Leads
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {season.domainLeads.map((member, index) => (
@@ -553,27 +553,7 @@ const Team = () => {
           </p>
         </div>
 
-        <div className="mb-16 flex justify-center">
-          <div className="flex flex-col items-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-5 py-4 shadow-xl shadow-black/20 backdrop-blur-sm sm:flex-row sm:gap-4">
-            <span className="text-sm font-semibold uppercase tracking-[0.22em] text-gray-400">
-              Team Year
-            </span>
-            <select
-              value={selectedSeason}
-              onChange={(e) => setSelectedSeason(e.target.value)}
-              className="min-w-[220px] rounded-xl border border-white/10 bg-gray-950 px-4 py-3 text-base font-semibold text-white outline-none transition focus:border-blue-400"
-            >
-              {Object.keys(teamSeasons)
-                .slice()
-                .reverse()
-                .map((key) => (
-                  <option key={key} value={key}>
-                    {teamSeasons[key].label}
-                  </option>
-                ))}
-            </select>
-          </div>
-        </div>
+
 
         <div className="mb-20">
           <h3 className="text-3xl font-bold text-white mb-10 text-center">
